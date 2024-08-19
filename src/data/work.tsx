@@ -24,7 +24,7 @@ export const workSlider = {
         {
           id: "image4",
           title: "Portifolio Pet Info",
-          path: "/petinfo.webp",
+          path: "/petInfo.webp",
           href: "https://pet-info-junio-chaves.vercel.app/",
         }
       ],
@@ -34,9 +34,9 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portifolio Burguer Kenzie",
-          path: "/burguer.webp",
-          href: "https://hamburgueria-junio-chaves.vercel.app/",
+          title: "Portifolio Kenzie Hub",
+          path: "/hub.webp",
+          href: "https://kenzie-hub-junio-chaves.vercel.app/",
         }
       ],
     }
