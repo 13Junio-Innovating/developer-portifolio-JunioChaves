@@ -18,7 +18,7 @@ const Home = () => {
           </h1>
           <p
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-8">
-            Entusiasta de tecnologia com vasta experiência em desenvolvimento web. Especializado em JavaScript e TypeScript, com ênfase na construção de interfaces modernas usando React.js e Next.js. Dedico-me apaixonadamente a criar soluções elegantes e eficazes que aprimoram a experiência do usuário.
+            Entusiasta de tecnologia com experiência em desenvolvimento web. Especializado em JavaScript e TypeScript, com ênfase na construção de interfaces modernas usando React.js. Dedico-me apaixonadamente a criar soluções elegantes e eficazes que aprimoram a experiência do usuário.
           </p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
