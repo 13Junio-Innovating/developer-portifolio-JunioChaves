@@ -5,27 +5,27 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portfolio Kenzie Hub",
+          title: "Portifolio Burguer Kenzie",
           path: "/burguer.webp",
           href: "https://hamburgueria-junio-chaves.vercel.app/",
         },
         {
           id: "image2",
-          title: "Portfolio Kenzie Hub",
+          title: "Portifolio Kenzie Hub",
           path: "/hub.webp",
           href: "https://kenzie-hub-junio-chaves.vercel.app/",
         },
         {
           id: "image3",
-          title: "Portfolio NuKenzie",
+          title: "Portifolio NuKenzie",
           path: "/nuKenzie.webp",
           href: "https://entrega-nu-kenzie-junio-chaves.vercel.app/",
         },
         {
           id: "image4",
-          title: "Portfolio Pet Info",
+          title: "Portifolio Pet Info",
           path: "/petinfo.webp",
-          href: "https://github.com/13Junio-Innovating/Api-institucional-Kanvas/tree/main",
+          href: "https://pet-info-junio-chaves.vercel.app/",
         }
       ],
     },
@@ -34,8 +34,8 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portfolio Open Source",
-          path: "/portfolio-green.webp",
+          title: "Portifolio Burguer Kenzie",
+          path: "/burguer.webp",
           href: "https://hamburgueria-junio-chaves.vercel.app/",
         }
       ],
