@@ -5,27 +5,27 @@ export const workSlider = {
       images: [
         {
           id: "image1",
-          title: "Portfolio Open Source",
-          path: "/portfolio-purple.webp",
-          href: "https://developer-purple-portfolio-vagnermengali.vercel.app/",
+          title: "Portfolio Kenzie Hub",
+          path: "/burguer.webp",
+          href: "https://hamburgueria-junio-chaves.vercel.app/",
         },
         {
           id: "image2",
-          title: "YRprey",
-          path: "/yrprey.webp",
-          href: "https://yrprey-vagnermengali.vercel.app/",
+          title: "Portfolio Kenzie Hub",
+          path: "/hub.webp",
+          href: "https://kenzie-hub-junio-chaves.vercel.app/",
         },
         {
           id: "image3",
-          title: "Portfolio Open Source",
-          path: "/portfolio-blue.webp",
-          href: "https://developer-blue-portfolio-vagnermengali.vercel.app/",
+          title: "Portfolio NuKenzie",
+          path: "/nuKenzie.webp",
+          href: "https://entrega-nu-kenzie-junio-chaves.vercel.app/",
         },
         {
           id: "image4",
-          title: "Dogma",
-          path: "/dogma.webp",
-          href: "https://www.grupodogma.site/",
+          title: "Portfolio Pet Info",
+          path: "/petinfo.webp",
+          href: "https://github.com/13Junio-Innovating/Api-institucional-Kanvas/tree/main",
         }
       ],
     },
@@ -36,7 +36,7 @@ export const workSlider = {
           id: "image1",
           title: "Portfolio Open Source",
           path: "/portfolio-green.webp",
-          href: "https://developer-green-portfolio-vagnermengali.vercel.app/",
+          href: "https://hamburgueria-junio-chaves.vercel.app/",
         }
       ],
     }

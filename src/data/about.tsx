@@ -15,10 +15,11 @@ import {
     TbBrandTailwind,
     TbBrandTypescript,
     TbBrandJavascript,
-    TbBrandGit
+    TbBrandGit,
+    TbJewishStar // Importação faltando
 } from "react-icons/tb";
 
-/* faltou TbJewishStar, nestjs, express, SQlite, PostgreSQL */
+/* Importações faltantes: nestjs, express, SQlite, PostgreSQL */
 
 export const aboutData = [
     {
@@ -28,7 +29,7 @@ export const aboutData = [
             {
                 id: "about1",
                 title: "",
-                stage: "Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.",
+                stage:   "Apaixonado por resolver problemas de forma criativa e inovadora, encontrei na tecnologia minha verdadeira vocação. Desde jovem, meu interesse pela tecnologia despertou ao comprar um desktop 386 e explorar suas possibilidades. Iniciei minha jornada na área com um curso simples de informática aos 18 anos, onde rapidamente percebi que a tecnologia era minha paixão. Apesar de ter seguido outros caminhos ao longo das décadas, meu talento para a tecnologia sempre esteve presente, aguardando a oportunidade certa para florescer. Durante a pandemia de 2021, decidi mergulhar de cabeça no mundo da programação e iniciei o curso de Análise e Desenvolvimento de Sistemas na Wyden Educacional. Impulsionado pelo desejo de aprender e crescer, busquei ainda mais conhecimento e encontrei na Kenzie Academy Brasil o ambiente ideal para me aprimorar como desenvolvedor web Full Stack.",
                 key: "about1",
             }
         ],
@@ -39,7 +40,7 @@ export const aboutData = [
         info: [
             {
                 id: "web-development",
-                title: "Desenvolvimento Web  ",
+                title: "Desenvolvimento Web",
                 icons: [
                     "HTML",
                     "CSS",
@@ -64,13 +65,13 @@ export const aboutData = [
                     "Vtex",
                 ],
             },
-            {
-                id: "ui-ux-design",
-                title: "UI/UX Design ",
-                icons: [
-                    "Figma",
-                ],
-            },
+            // {
+            //     id: "ui-ux-design",
+            //     title: "UI/UX Design",
+            //     icons: [
+            //         "Figma",
+            //     ],
+            // },
             {
                 id: "tools",
                 title: "Ferramentas",
@@ -79,8 +80,8 @@ export const aboutData = [
                     "Linux",
                     "Vscode",
                     "Insomnia",
-                    "Jira",
-                    "Notion",
+                    // "Jira",
+                    // "Notion",
                     "Trello",
                 ],
             },
@@ -92,45 +93,16 @@ export const aboutData = [
         info: [
             {
                 id: "education1",
-                title: "Desenvolvimento web full stack ",
-                stage: "mar de 2023",
+                title: "Desenvolvedor web full stack",
+                stage: "Março de 2024",
                 key: "education1",
             },
+            // Adicione mais informações de educação aqui conforme necessário
             {
                 id: "education2",
-                title: "Back end avançado ",
-                stage: "fev de 2023",
+                title: "Analise e Desenvolvimento de sistemas",
+                stage: "Dezembro de 2023",
                 key: "education2",
-            },
-            {
-                id: "education3",
-                title: "DevOps & Agile culture ",
-                stage: "fev de 2023",
-                key: "education3",
-            },
-            {
-                id: "education4",
-                title: "Introdução ao back end ",
-                stage: "jan de 2023",
-                key: "education4",
-            },
-            {
-                id: "education5",
-                title: "Programação web intermediária ",
-                stage: "out de 2022",
-                key: "education5",
-            },
-            {
-                id: "education6",
-                title: "Desenvolvimento web front end ",
-                stage: "set de 2022",
-                key: "education6",
-            },
-            {
-                id: "education7",
-                title: "Introdução ao back end ",
-                stage: "jun de 2022",
-                key: "education7",
             },
         ],
     },
@@ -140,46 +112,17 @@ export const aboutData = [
         info: [
             {
                 id: "experience1",
-                title: "Wicomm | Desenvolvedor front end ",
-                stage: "abr 2023 - o momento",
+                title: "Formado na Kenzie Academy Brasil",
+                stage: "Fevereiro 2023 - Março 2024",
                 key: "experience1",
             },
             {
                 id: "experience2",
-                title: "Kenzie Academy Brasil | Monitor ",
-                stage: "mai 2022 - nov 2022",
+                title: "Formado em Analise e desenvolvimento de sistemas",
+                stage: "Dezembro 2023 ",
                 key: "experience2",
             },
-            {
-                id: "experience3",
-                title: "Fitoxs | Desenvolvedor full stack ",
-                stage: "set 2020 - fev 2020",
-                key: "experience3",
-            },
-            {
-                id: "experience4",
-                title: "Fitoxs | Desenvolvedor front end ",
-                stage: "fev 2020 - set 2020",
-                key: "experience4",
-            },
+            // Adicione mais informações de experiência aqui conforme necessário
         ],
     },
-    /*     {
-            id: "formation",
-            title: "Formação",
-            info: [
-                {
-                    id: "formation1",
-                    title: "Cursando Análise e Desenvolvimento de Sistemas  UNICID",
-                    stage: "01/2023  12/2024",
-                    key: "formation1",
-                },
-                {
-                    id: "formation2",
-                    title: "Senac São Miguel Paulista | WINDOWS E OFFICE 2016",
-                    stage: "06/2019  12/2019",
-                    key: "formation2",
-                },
-            ],
-        }, */
 ];

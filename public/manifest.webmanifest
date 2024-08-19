@@ -1,8 +1,8 @@
 {
-  "name": "Portfolio | Vagner Mengali",
+  "name": "Portfolio | Junio Chaves",
   "short_name": "Portfolio",
-  "description": "Portfólio pessoal de Vagner Mengali, mostrando seu trabalho e experiência.",
-  "author": "Vagner Mengali",
+  "description": "Portfólio pessoal de Junio Chaves, mostrando seu trabalho e experiência.",
+  "author": "Junio Chaves",
   "lang": "pt-BR",
   "theme_color": "#08d665",
   "background_color": "#0b0d0c",
@@ -49,8 +49,8 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://developer-green-portfolio-vagnermengali.vercel.app/",
-      "id": "com.vagnermengali.portfolio"
+      "url": "https://developer-green-portfolio-Junio Chaves.vercel.app/",
+      "id": "com.juniochaves.portfolio"
     }
   ],
   "manifest_version": 3,
@@ -63,8 +63,8 @@
   "i18n": {
     "locales": {
       "en": {
-        "name": "Portfolio | Vagner Mengali",
-        "description": "Personal portfolio of Vagner Mengali, showcasing his work and experience."
+        "name": "Portfolio | Junio Chaves",
+        "description": "Personal portfolio of Junio Chaves, showcasing his work and experience."
       }
     },
     "default_locale": "pt-BR"

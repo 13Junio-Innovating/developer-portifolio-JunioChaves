@@ -40,7 +40,7 @@ const About = () => {
           </h2>
           <p
             className="hidden xl:flex max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 z-10">
-            Ingressei na carreira de TI por interesse em jogos, comecei a modificar códigos para melhorar jogos e, gradualmente, estudei por conta própria. Trabalhei meio período na Fixtoxs como desenvolvedor front-end, evoluindo para full stack. Após um curso em tempo integral, fui monitor na Kenzie Academy e, agora, sou desenvolvedor front-end na Wicomm, além de fazer projetos freelance como full stack.
+            Apaixonado por resolver problemas de forma criativa e inovadora, encontrei na tecnologia minha verdadeira vocação desde jovem, explorando um desktop 386. Com um curso simples aos 18 anos, percebi rapidamente minha paixão pela tecnologia. Ao longo das décadas, meu talento para a tecnologia sempre esteve presente, aguardando a oportunidade certa para florescer. Durante a pandemia de 2021, mergulhei no mundo da programação e iniciei o curso de Análise e Desenvolvimento de Sistemas na Wyden Educacional. Impulsionado pelo desejo de aprender e crescer, aprimorei minhas habilidades na Kenzie Academy Brasil como desenvolvedor web Full Stack.
           </p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -51,25 +51,25 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={15} /> +
+                  <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Anos de experiência</div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={75} duration={10} /> +
+                  <CountUp start={0} end={10} duration={10} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Projetos finalizados</div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={127} duration={10} /> +
+                  <CountUp start={0} end={10} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Avaliações positivas</div>
               </div>
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={17} duration={5} /> +
+                  <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-wide tracking-[1px] leading-[1.4] max-w-[100px]">Certificações Concluídas</div>
               </div>

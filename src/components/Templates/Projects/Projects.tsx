@@ -17,7 +17,7 @@ const Projects = () => {
             </h2>
             <p
               className="xl:mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Explore meu portfólio de projetos como desenvolvedor frontend, onde cada linha de código conta uma história visual. De websites responsivos a experiências interativas, cada projeto demonstra meu compromisso em combinar estética e funcionalidade no mundo digital.
+              Explore meu portifólio de projetos como desenvolvedor frontend e backend, onde cada linha de código conta uma história visual. De websites responsivos a experiências interativas com APIs, cada projeto demonstra meu compromisso em combinar estética e funcionalidade no mundo digital.
             </p>
           </div>
           <motion.div

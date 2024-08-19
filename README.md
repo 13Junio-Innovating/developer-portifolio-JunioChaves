@@ -1,13 +1,6 @@
 <h1 align="center">
- Developer Green Portfolio
+ Developer Junio Chaves Portfolio
 </h1>
-
-<div align="center">
-  <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/>
-</div>
-
-
-[![Banner](https://github.com/vagnermengali/developer-green-portfolio/blob/main/public/portfolio-green.webp)](https://developer-green-portfolio-vagnermengali.vercel.app/)
 
 <div align="center">
    <a href="#documentação-em-português">Leia em Português |</a>
@@ -50,25 +43,27 @@ Para executar este projeto localmente, siga as instruções abaixo:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/vagnermengali/developer-green-portfolio.git
+   git clone https://github.com/13Junio-Innovating/developer-portifolio-JunioChaves.git
    ```
 
 2. Acesse o diretório do projeto:
 
    ```bash
-   cd developer-green-portfolio
+   cd developer-portfolio-JunioChaves
    ```
 
 3. Instale as dependências:
 
    ```bash
    yarn install
+   npm install
    ```
 
 4. Inicie o servidor de desenvolvimento:
 
    ```bash
    yarn dev
+   npm run dev
    ```
 
 5. Acesse a aplicação no seu navegador através da rota:
@@ -82,10 +77,6 @@ Acesse a aplicação no seu navegador através do seguinte endereço: [http://lo
 ## Configurando o Formulário de Contato por Email
 
 Siga [este tutorial](https://www.youtube.com/watch?v=Zbg1BHOVzRg) para aprender como configurar um formulário de contato por email utilizando JavaScript.
-
-## Implantação
-
-Este projeto está disponível em: [https://developer-green-portfolio-vagnermengali.vercel.app/](https://developer-green-portfolio-vagnermengali.vercel.app/)
 
 ## Contribuição
 
@@ -132,37 +123,42 @@ To run this project locally, follow the instructions below:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vagnermengali/developer-green-portfolio.git
+   git clone https://github.com/13Junio-Innovating/developer-portifolio-JunioChaves.git
+
+   ```
 
 2. Access the project directory:
 
    ```bash
-   cd developer-green-portfolio
+   cd developer-portfolio-JunioChaves
+
+   ```
 
 3. Install the dependencies:
 
    ```bash
    yarn install
 
+   ```
+
 4. Start the development server:
 
    ```bash
    yarn dev
 
+   ```
+
 5. Access the application in your browser through the route:
 
    ```bash
    http://localhost:3000/
+   ```
 
 Access the application in your browser through the following address: [http://localhost:3000/](http://localhost:3000/). Explore the project files using your preferred code editor and make any necessary changes.
 
 ## Setting up the Email Contact Form
 
 Follow [this tutorial](https://www.youtube.com/watch?v=Zbg1BHOVzRg) to learn how to set up an email contact form using JavaScript.
-
-## Deploy
-
-This project is available at: [https://developer-green-portfolio-vagnermengali.vercel.app/](https://developer-green-portfolio-vagnermengali.vercel.app/)
 
 ## Contribution
 

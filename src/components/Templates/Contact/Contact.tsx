@@ -1,6 +1,5 @@
 import { RiArrowRightLine } from "react-icons/ri";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/router";
@@ -31,38 +30,20 @@ const Contact = () => {
       url: window.location.href,
     };
 
-    const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
-    const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
-
-    if (!serviceId || !templateId || !publicKey) {
-      throw new Error("Variáveis de ambiente não estão definidas corretamente.");
-    }
-
-    emailjs
-      .send(serviceId.toString(), templateId.toString(), templateParams, publicKey.toString())
-      .then(
-        (response) => {
-          console.log("EMAIL ENVIADO", response.status, response.text);
-          reset();
-          Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Sua mensagem foi enviada com sucesso! Obrigado",
-            showConfirmButton: false,
-            width: 600,
-            padding: "3em",
-            color: "#fff",
-            background: "#0b0d0e",
-            backdrop: "rgba(0,0,0,0.4)",
-            timer: 1500
-          });
-          router.push('/');
-        },
-        (err) => {
-          console.log("ERROR", err);
-        }
-      );
+    reset();
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: "Sua mensagem foi enviada com sucesso! Obrigado",
+      showConfirmButton: false,
+      width: 600,
+      padding: "3em",
+      color: "#fff",
+      background: "#0b0d0e",
+      backdrop: "rgba(0,0,0,0.4)",
+      timer: 1500
+    });
+    router.push('/');
   };
 
   return (
@@ -134,14 +115,14 @@ const Contact = () => {
                   ></textarea>
                 )}
               />
-              <button
-                type="submit"
+              <a
+                href="mailto:juniochavestj@gmail.com"
                 className="bg-white/10 backdrop-blur-sm btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
               >
                 <span className="transition-all duration-300">
                   Enviar
                 </span>
-              </button>
+              </a>
             </motion.form>
           </div>
         </div>

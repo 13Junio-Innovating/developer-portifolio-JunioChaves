@@ -14,7 +14,7 @@ const Socials = () => {
     <div className="flex items-center xl:gap-x-5 gap-x-3 text-lg">
       <Link
         target="_blank"
-        href={"https://github.com/vagnermengali"}
+        href={"https://github.com/13Junio-Innovating"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"github"}
       >
@@ -22,7 +22,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://twitter.com/vagnermengali"}
+        href={"https://twitter.com/@13juniochaves"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"twitter"}
       >
@@ -30,7 +30,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://ms-my.facebook.com/vagner.mengali.9"}
+        href={"https://www.facebook.com/junio.chaves.31/"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"facebook"}
       >
@@ -38,7 +38,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://www.linkedin.com/in/vagnermengali/"}
+        href={"https://www.linkedin.com/in/junio-chaves-b60901143"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"linkedin"}
       >
@@ -46,7 +46,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://www.instagram.com/vagner.mengali/"}
+        href={"https://www.instagram.com/junio__chaves"}
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"instagram"}
       >
@@ -54,7 +54,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href="mailto:contatovagnermengali@gmail.com"
+        href="mailto:juniochavestj@gmail.com"
         className="hover:text-accent transition-all duration-300 xl:max-w-[26px] xl:max-h-[26px] max-w-[16px] max-h-[16px]"
         aria-label={"email"}
       >

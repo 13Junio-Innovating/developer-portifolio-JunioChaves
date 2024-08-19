@@ -1,7 +1,7 @@
 {
-  "author": "v-a-g-n-e-r-m-e-n-g-a-l-i",
-  "name": "developer-green-portfolio",
-  "version": "0.1.0",
+  "author": "J-u-n-i-o-C-h-a-v-e-s",
+  "name": "developer-portifolio-JunioChaves",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,7 @@
     "formik": "^2.4.5",
     "framer-motion": "^10.12.16",
     "lodash-es": "^4.17.21",
-    "next": "14.0.3",
+    "next": "^14.2.5",
     "nodemailer": "^6.9.7",
     "react": "^18",
     "react-countup": "^6.4.2",
@@ -26,7 +26,7 @@
     "react-hook-form": "^7.49.3",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
-    "sweetalert2": "^11.10.2",
+    "sweetalert2": "^11.6.13",
     "swiper": "^11.0.5",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^2.9.3",

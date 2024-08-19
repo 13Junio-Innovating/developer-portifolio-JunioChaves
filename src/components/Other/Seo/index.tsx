@@ -4,12 +4,12 @@ import { SeoInterface } from "@/interfaces/SeoInterface";
 const Seo = ({ title, description }: SeoInterface) => {
     return (
         <Head>
-            <meta name="author" content="Vagner Mengali" />
+            <meta name="author" content="Junio Chaves" />
             <meta name="keywords" content="Javascript" />
-            <link rel="fluid-icon" href="/favicon.webp" title="Vagner Mengali" />
+            <link rel="fluid-icon" href="/favicon.webp" title="Junio Chaves" />
             <link rel="icon" type="svg+xml" href="/favicon.webp" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>{title === "Homepage" ? "Vagner Mengali • Portfólio" : `${title} • Vagner Mengali • Portfólio`}</title>
+            <title>{title === "Homepage" ? "Junio Chaves • Portfólio" : `${title} • Junio Chaves • Portfólio`}</title>
             <link rel="shortcut icon" href="/favicon.webp" type="x-icon" />
             <link rel="icon" href="/favicon32x32.webp" sizes="32x32" />
             <link rel="icon" href="/favicon48x48.webp" sizes="48x48" />
@@ -19,21 +19,21 @@ const Seo = ({ title, description }: SeoInterface) => {
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:site_name" content="Vagner Mengali" />
+            <meta property="og:site_name" content="Junio Chaves" />
             <meta property="og:type" content="website" key="ogtype" />
-            <meta property="og:url" content="https://vagnermengali.com/" />
+            <meta property="og:url" content="https://juniochaves.com/" />
             <meta property="og:image:alt" content={description} />
             <meta property="og:image" content="/portfolio-green.webp" />
-            <meta name="twitter:title" content="Vagner Mengali" />
-            <meta name="twitter:site" content="@vagnermengali" />
+            <meta name="twitter:title" content="Junio Chaves" />
+            <meta name="twitter:site" content="@13juniochaves" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:image" content="/portfolio-green.webp" />
             <meta name="twitter:description" content={description} />
-            <meta property="al:ios:app_name" content="Vagner Mengali" />
-            <meta property="al:ios:url" content="https://vagnermengali.com/" />
-            <meta property="al:android:app_name" content="Vagner Mengali" />
-            <meta property="al:android:url" content="https://vagnermengali.com/" />
-            <link rel="canonical" href="https://vagnermengali.com/" />
+            <meta property="al:ios:app_name" content="Junio Chaves" />
+            <meta property="al:ios:url" content="https://juniochaves.com/" />
+            <meta property="al:android:app_name" content="Junio Chaves" />
+            <meta property="al:android:url" content="https://juniochaves.com/" />
+            <link rel="canonical" href="https://juniochaves.com/" />
             <meta name="theme-color" content="#0b0d0c" />
             <meta name="msapplication-TileColor" content="#0b0d0c" />
             <meta name="msapplication-navbutton-color" content="#0b0d0c" />

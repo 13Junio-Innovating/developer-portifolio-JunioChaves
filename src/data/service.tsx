@@ -8,8 +8,8 @@ export const serviceData = [
   {
     id: "service1",
     icon: <RiCodeSSlashFill key="Desenvolvedor Front-End" />,
-    title: "Desenvolvedor",
-    description: "Trabalhei em soluções abrangentes que abrangem front-end. Posso criar aplicações robustas e integradas, proporcionando uma experiência de usuário completa.",
+    title: "Desenvolvedor Front End",
+    description: "Construo soluções que abrangem front-end. Posso criar aplicações robustas e integradas, proporcionando uma experiência de usuário completa.",
   },
   {
     id: "service2",
