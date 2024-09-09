@@ -26,6 +26,12 @@ export const workSlider = {
           title: "Portifolio Pet Info",
           path: "/petInfo.webp",
           href: "https://pet-info-junio-chaves.vercel.app/",
+        },
+        {
+          id: "image5",
+          title: "Portifolio Familia Amanhecer",
+          path: "/familiaAmanhecer.webp",
+          href: "https://familia-amanhecer-plataform.vercel.app/",
         }
       ],
     },
