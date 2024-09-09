@@ -17,7 +17,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={{ Pagination } as any}
-      className="h-[280px] sm:h-[480px]"
+      className="h-auto sm:h-auto overflow-x-auto"
     >
       {workSlider.slides.map((slide, index) => {
         return (
