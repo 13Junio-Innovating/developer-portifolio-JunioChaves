@@ -32,6 +32,12 @@ export const workSlider = {
           title: "Portifolio Familia Amanhecer",
           path: "/familiaAmanhecer.webp",
           href: "https://familia-amanhecer-plataform.vercel.app/",
+        },
+        {
+          id: "image6",
+          title: "Portifolio Loja Celular",
+          path: "/lojaCelular.webp",
+          href: "https://loja-de-celular-tau.vercel.app/",
         }
       ],
     },
