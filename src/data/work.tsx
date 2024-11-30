@@ -23,9 +23,9 @@ export const workSlider = {
         },
         {
           id: "image4",
-          title: "Portifolio Pet Info",
-          path: "/petInfo.webp",
-          href: "https://pet-info-junio-chaves.vercel.app/",
+          title: "Portifolio Dashboard",
+          path: "/Dashboard.webp",
+          href: "https://13junio-innovating-supermarket-sales-dashboard-dashboard-clvut7.streamlit.app/",
         },
         {
           id: "image5",
