@@ -44,6 +44,12 @@ export const workSlider = {
           title: "Portifolio Pizzaria da Cláudia",
           path: "/pizzariaClaudia.webp",
           href: "https://pizzaria-da-claudia.vercel.app/",
+        },
+        {
+          id: "image8",
+          title: "Portifolio Soluções para Empresas",
+          path: "/SolucoesEmpresas.webp",
+          href: "https://googlenegocio.vercel.app/",
         }
       ],
     },
