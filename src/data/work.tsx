@@ -4,6 +4,12 @@ export const workSlider = {
       id: "slide1",
       images: [
         {
+          id: "image0",
+          title: "Portifolio JCPLAY VISION",
+          path: "/JCPLAY.png",
+          href: "https://github.com/13Junio-Innovating/JCPLAY_VISION",
+        },
+        {
           id: "image1",
           title: "Portifolio Burguer Kenzie",
           path: "/burguer.webp",
