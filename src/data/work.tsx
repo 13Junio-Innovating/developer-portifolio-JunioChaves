@@ -4,12 +4,6 @@ export const workSlider = {
       id: "slide1",
       images: [
         {
-          id: "image9",
-          title: "Portifolio JCPLAY VISION",
-          path: "/JCPLAY.png",
-          href: "https://github.com/13Junio-Innovating/JCPLAY_VISION",
-        },
-        {
           id: "image1",
           title: "Portifolio Burguer Kenzie",
           path: "/burguer.webp",
@@ -38,12 +32,6 @@ export const workSlider = {
           title: "Portifolio Familia Amanhecer",
           path: "/familiaAmanhecer.webp",
           href: "https://familia-amanhecer-plataform.vercel.app/",
-        },
-        {
-          id: "image6",
-          title: "Portifolio Loja Celular",
-          path: "/lojaCelular.webp",
-          href: "https://loja-de-celular-tau.vercel.app/",
         },
         {
           id: "image7",
