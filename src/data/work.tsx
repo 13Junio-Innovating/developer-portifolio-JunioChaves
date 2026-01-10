@@ -44,6 +44,12 @@ export const workSlider = {
           title: "Portifolio Soluções para Empresas",
           path: "/SolucoesEmpresas.webp",
           href: "https://googlenegocio.vercel.app/",
+        },
+        {
+          id: "image9",
+          title: "Portifolio Gerenciador de painéis digitais ",
+          path: "/JCPLAY.png",
+          href: "https://jc-vision-play.vercel.app/",
         }
       ],
     },
